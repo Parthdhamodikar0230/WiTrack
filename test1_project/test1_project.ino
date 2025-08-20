@@ -1,10 +1,10 @@
 #include <ESP8266WiFi.h>
 #include <WiFiUdp.h>
 
-const char* ssid = "vivo Y72 5G";        // Replace with your WiFi SSID
-const char* password = "griffinmoss+6972"; // Replace with your WiFi Password
+const char* ssid = "Your Wifi SSID";        // Replace with your WiFi SSID
+const char* password = "Password"; // Replace with your WiFi Password
 
-const char* udpAddress = "172.17.168.60";   // Replace with your laptop IP
+const char* udpAddress = "Device IP";   // Replace with your laptop IP
 const int udpPort = 4210;                  // UDP port your server will listen on
 
 WiFiUDP udp;
